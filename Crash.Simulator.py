@@ -5,7 +5,6 @@ for i in range(times):
     x = random.uniform(0.01, 0.01)
     y = 1;
     z = random.uniform(0, 100000) / random.uniform(10, 10100)
-    print('{0:.2f}'.format(z))
     user = float(input("Enter your value: "))
     while y < z:
         y += x
